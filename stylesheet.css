@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    background-color: rgb(251, 243, 229);
+}
+
+.wrapper .logo {
+    width: 20%;
+}
+
+.logo p{
+    margin: 3% 0% 0% 52%;
+    font-size:35px;
+    font-style: italic;
+    color: rgb(251, 120, 38);
+}
+
+.wrapper .nav {
+    width: 50%;
+}
+
+.wrapper .nav nav ul {
+    display: flex;
+    margin-left: 90%;
+}
+
+.wrapper .nav nav ul li {
+    list-style: none;
+    margin: 15px;
+    color: orangered;
+    padding: 2px;
+}
+
+header .banner{
+    background: url(./img/banner2.avif) no-repeat center/cover;
+    height: 80vh;
+    width: 100%;
+ }
+
+
+.main-content{
+    width: 100%;
+    background-color: bisque;
+}
+
+.main-content .head-topic{
+    text-align: center;
+    background-color: bisque;
+    height: 60px;
+}
+
+.main-content .head-topic p{
+    font-size: 35px;
+    font-weight: 800;
+    padding-top: 10px;
+}
+.main-content .product{
+    display: flex;
+    justify-content: center;
+    margin-left: 4%;
+    
+}
+
+.main-content .product .list-product{
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+    /* border: 2px solid black; */
+    border-bottom: 10px solid bisque;
+}
+
+.main-content .product .list-product .card-img{
+    width: 200px;
+    height: 200px;
+    
+    
+}
+.main-content .product .list-product .card-img img{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+.main-content .product .list-product .card-text{
+    margin-top:30% ;
+}
+.main-content .product .list-product .card-text p{
+    color: grey;
+}
+
+.main-content .feed-container .feed-content{
+    text-align: center;
+    background-color: grey;
+}
+
+footer .foot .foot-set{
+    display: flex;
+    background-color: rgb(252, 219, 180);
+    justify-content: flex-end;
+    
+}
+.foot  .foot-content{
+    margin: 4px;
+    width: 20%;
+}
+
+.foot .foot-set .foot-content div{
+    text-decoration: none;
+    color:black;
+    
+}
